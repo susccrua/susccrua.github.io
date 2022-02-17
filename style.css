@@ -50,9 +50,6 @@ nav a {
   align-items: center;
   background-color: transparent;
 }
-.titles {
-  flex-direction: column;
-}
 
 .frame h2 {
   font-family: SF Mono;
@@ -97,6 +94,7 @@ h2.inactive {
   height: 400px;
   overflow: hidden;
   border-radius: 50%;
+  margin: 20px;
 }
 
 .socialMedia {
@@ -109,4 +107,27 @@ h2.inactive {
 .socialMedia img {
   width: 45px;
   height: 45px;
+}
+
+@media only screen and (max-width: 800px) {
+  .frame {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frame h2 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .pbox {
+    width: 100%;
+    position: relative;
+    align-content: center;
+  }
+
+  .pbox p {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+  }
 }
