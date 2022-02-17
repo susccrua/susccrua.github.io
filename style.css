@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  justify-content: center;
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+nav {
+  display: flex;
+  background-color: #bd030e;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2em;
+  margin-right: 50px;
+  color: black;
+}
+
+#logo {
+  height: 60%;
+  width: auto;
+  margin-left: 50px;
+}
+
+.space {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.frame {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 80%;
+  justify-self: center;
+  align-items: center;
+  background-color: transparent;
+}
+.titles {
+  flex-direction: column;
+}
+
+.frame h2 {
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7em;
+  line-height: 95px;
+
+  color: #bd030e;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pbox {
+  width: 60%;
+  position: absolute;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  justify-self: center;
+}
+
+.pbox p {
+  position: static;
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: right;
+  margin: 20px 20px 20px 90px;
+}
+.pbox.inactive {
+  display: none;
+}
+h2.inactive {
+  color: #b1b1b1;
+}
