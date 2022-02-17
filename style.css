@@ -90,3 +90,23 @@ nav a {
 h2.inactive {
   color: #b1b1b1;
 }
+
+.mypic img {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.socialMedia {
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  right: 0;
+}
+
+.socialMedia img {
+  width: 45px;
+  height: 45px;
+}
